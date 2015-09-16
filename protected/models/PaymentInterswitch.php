@@ -61,6 +61,8 @@ class PaymentInterswitch extends CActiveRecord
 			'response_code' => 'Response Code',
 			'response_description' => 'Response Description',
 			'transaction_date' => 'Transaction Date',
+			'cust_name'=>'Customer Name',
+			'amount'=>'Amount',
 		);
 	}
 

@@ -91,6 +91,8 @@ return array(
 
         'interswitch_redirect_url' => 'http://localhost/inpayment/index.php/interswitch/response',
 
+        'interswitch_redirect_url_complete' => '',
+
         'interswitch_currency_code' => 566,
 
         'interswitch_product_id' => 6205,

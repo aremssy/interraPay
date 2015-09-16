@@ -21,43 +21,42 @@ class InterswitchController extends Controller
 
 	public function actionOpen()
 	{
+    
+      $model = $_POST['FormModel'];
+  //print_r($model);die;
+  
+    $interswitch = $model['transaction_id'];
+    $amount=  $model['amount'];
+    $customer=  $model['cust_name'];
+    Yii::app()->session["interswitch_redirect_url_complete"]  = 'http://localhost/website/index.php/site/complete';
+    
+         if(!empty(Yii::app()->session['transaction_id'])){
+          unset(Yii::app()->session['transaction_id']);
+          Yii::app()->session['transaction_id']=$interswitch;
+        }else{
+          Yii::app()->session['transaction_id']=$interswitch;
+         }
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-    $model=new PaymentDetails;
     $modelPay=new PaymentInterswitch;
 
-    // Uncomment the following line if AJAX validation is needed
-    // $this->performAjaxValidation($model);
-      $pymentDetails = PaymentDetails::getTransaction( Yii::app()->session['transaction_id']);
-            if ($pymentDetails == null) {
-    if(isset($_POST['PaymentDetails'],$_POST['PaymentInterswitch']))
+    if(isset(Yii::app()->session['transaction_id']))
     {
-      $model->attributes=$_POST['PaymentDetails'];
-      $modelPay->attributes=$_POST['PaymentInterswitch'];
-      if($model->save())
-        $modelPay->save();
+      $modelPay->amount=$amount;
+       $modelPay->transaction_id=$interswitch;
+        $modelPay->cust_name=$customer;
+      if($modelPay->save())
         $this->redirect(array('/interswitch/verify'));
     }
-        }
-        else{
-      $this->redirect(array('/interswitch/verify'));
-    }
-    $this->render('../payment/index',array(
-      'model'=>$model,
-      'modelPay'=>$modelPay,
-    ));
-         
 	} 
 
 
   public function actionVerify()
         {
-          //  echo  Yii::app()->session['transaction_id'].'<br>';
-          //die;
         if ( Yii::app()->session['transaction_id'] == null) {
                  throw new CHttpException(403, "Bad Request 1");
                  }
-         $pymentDetails = PaymentDetails::getTransaction( Yii::app()->session['transaction_id']);
+         $pymentDetails = PaymentInterswitch::getTransaction( Yii::app()->session['transaction_id']);
             if ($pymentDetails == null) {
                 throw new CHttpException(403, "Bad Request 2");
         }
@@ -75,7 +74,7 @@ class InterswitchController extends Controller
                 throw new CHttpException(403, "Bad Request 1");
             }
           $transaction_id = Yii::app()->session['transaction_id'];
-            $interswitch    = PaymentDetails::getTransaction($transaction_id);
+            $interswitch    = PaymentInterswitch::getTransaction($transaction_id);
          if ($interswitch == null) {
                 throw new CHttpException(403, "Bad Request 2");
             }
@@ -127,16 +126,17 @@ class InterswitchController extends Controller
     //var_dump($data);
             if (!empty($data)) {
                 $paymentInterswitch  = PaymentInterswitch::getTransaction( Yii::app()->session['transaction_id']);
-                $pymentDetails = PaymentDetails::getTransaction( Yii::app()->session['transaction_id']);
                 $result              = CJSON::decode($data);
                 //$interswitch->response_code        = $result["ResponseCode"];
                 $paymentInterswitch->response_code        = $result["ResponseCode"];
                 $paymentInterswitch->response_description = $result["ResponseDescription"];
-                $pymentDetails->status_id                   = '1';
-                echo  $paymentInterswitch->response_description;
+                Yii::app()->session['session_ResponseDescription'] = $result["ResponseDescription"];
+                Yii::app()->session['session_ResponseCode']  = $result["ResponseCode"];
+                Yii::app()->session['session_customer']  = $paymentInterswitch->cust_name;
+
                  if ($paymentInterswitch->save()) {
-                  $pymentDetails->save();
-                    $this->redirect(array('/interswitch/complete'));
+                  echo 'URL'.  Yii::app()->session["interswitch_redirect_url_complete"];
+                  $this->redirect(Yii::app()->session["interswitch_redirect_url_complete"]);
             
                   }
                 }
@@ -150,26 +150,6 @@ class InterswitchController extends Controller
                    throw new CHttpException(403, "Bad Request ");
                   }
           		}
-  public function actionComplete()
-        {
-            if (Yii::app()->session['transaction_id'] == null) {
-                throw new CHttpException(403, "Bad Request");
-            }
-            
-            $paymentInterswitch = PaymentInterswitch::getTransaction( Yii::app()->session['transaction_id']);
-            $paymentDetails = PaymentDetails::getTransaction( Yii::app()->session['transaction_id']);
-            $to          = $paymentDetails->email;
-            //$sent        = YumMailer::transactionNotificationMessage($interswitch->payment, $to);
-            
-            unset(Yii::app()->session['transaction_id']);
-            
-         //   $returnUri = $this->createUrl('/payment/default/detail', array('id' => $interswitch->payment->class_student_id));
-         //   Yii::app()->clientScript->registerMetaTag("10;url={$returnUri}", null, 'refresh');
-            $this->render("../payment/complete", array(
-                'paymentInterswitch' => $paymentInterswitch,
-               'to'          => $to
-            ));
-        }
 
 	/**
 	 * This is the action to handle external exceptions.

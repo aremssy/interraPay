@@ -25,7 +25,7 @@
 <div class="alert <?php echo $css_class; ?>">
     <h1 style="margin-left: 0;"><?php echo $message; ?></h1>
 
-    <p>An email has also being sent to <b><?php echo $to; ?></b></p>
+    <p>An email has also being sent to <b><?php echo $paymentInterswitch->cust_name; ?></b></p>
 
     <p>Transaction Reference: <?php echo $paymentInterswitch->transaction_id; ?></p>
     <?php if ($try_again): ?>

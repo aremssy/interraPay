@@ -9853,3 +9853,2505 @@ Stack trace:
 REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
 HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/complete
 ---
+2015/09/15 20:48:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bad Request 1' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:68
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionVerify()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('verify')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ver...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/verify
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:48:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/15 20:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/15 20:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:48:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bad Request 1' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:68
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionVerify()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('verify')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ver...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/verify
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/15 20:48:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/15 20:52:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:53:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:53:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 20:53:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:03:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/model%5Binterswitch%5D/INPAY-1442350962/model%5Bamount%5D/5000/model%5Bcustomer%5D/Aremu+Habibullahi
+---
+2015/09/15 21:03:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/model%5Binterswitch%5D/INPAY-1442350962/model%5Bamount%5D/5000/model%5Bcustomer%5D/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/model%5Binterswitch%5D/INPAY-1442350962/model%5Bamount%5D/5000/model%5Bcustomer%5D/Aremu+Habibullahi
+---
+2015/09/15 21:03:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/model%5Binterswitch%5D/INPAY-1442350962/model%5Bamount%5D/5000/model%5Bcustomer%5D/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/model%5Binterswitch%5D/INPAY-1442350962/model%5Bamount%5D/5000/model%5Bcustomer%5D/Aremu+Habibullahi
+---
+2015/09/15 21:10:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351409/0%5Bamount%5D/5000/0%5Bcustomer%5D/Aremu+Habibullahi
+---
+2015/09/15 21:10:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351409/0%5Bamount%5D/5000/0%5Bcustomer%5D/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351409/0%5Bamount%5D/5000/0%5Bcustomer%5D/Aremu+Habibullahi
+---
+2015/09/15 21:10:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351409/0%5Bamount%5D/5000/0%5Bcustomer%5D/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351409/0%5Bamount%5D/5000/0%5Bcustomer%5D/Aremu+Habibullahi
+---
+2015/09/15 21:10:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/
+---
+2015/09/15 21:10:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/
+---
+2015/09/15 21:10:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/
+---
+2015/09/15 21:10:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/
+---
+2015/09/15 21:10:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/
+---
+2015/09/15 21:10:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open/
+---
+2015/09/15 21:11:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:11:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:11:31 [error] [php] Undefined variable: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:19:31 [error] [php] Undefined index: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:19:33 [error] [php] Undefined index: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open/
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:19:38 [error] [php] Undefined index: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351409/0%5Bamount%5D/5000/0%5Bcustomer%5D/Aremu+Habibullahi
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:19:53 [error] [php] Undefined index: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351987
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:20:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351987
+---
+2015/09/15 21:20:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351987
+---
+2015/09/15 21:21:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351987
+---
+2015/09/15 21:21:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open/0%5Binterswitch%5D/INPAY-1442351987
+---
+2015/09/15 21:25:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:26:01 [error] [php] Undefined index: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:26:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:26:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:28:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:28:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:28:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:33:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/15 21:39:48 [error] [php] Undefined variable: model (C:\wamp\www\inpayment\protected\views\payment\index.php:20)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): InterswitchController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): InterswitchController->renderPartial()
+#2 C:\wamp\www\inpayment\protected\controllers\InterswitchController.php(57): InterswitchController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionOpen()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\views\payment\index.php (20)
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (57)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/15 21:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/15 21:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:05:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:25:05 [error] [exception.CException] exception 'CException' with message 'Property "PaymentInterswitch.cust_id" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('cust_id')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('cust_id')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(PaymentInterswitch), 'cust_id')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(PaymentInterswitch), 'cust_id', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(PaymentInterswitch), 'cust_id', Array)
+#5 C:\wamp\www\inpayment\protected\views\payment\index.php(37): CActiveForm->textField(Object(PaymentInterswitch), 'cust_id', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\inp...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\inp...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\inp...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('../payment/inde...', Array, true)
+#10 C:\wamp\www\inpayment\protected\controllers\InterswitchController.php(57): CController->render('../payment/inde...', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionOpen()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+HTTP_REFERER=http://localhost/website/
+---
+2015/09/16 08:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/complete
+---
+2015/09/16 08:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/complete
+---
+2015/09/16 08:38:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bad Request' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:171
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionComplete()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('complete')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/com...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/complete
+---
+2015/09/16 08:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/complete
+---
+2015/09/16 08:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/complete
+---
+2015/09/16 08:39:09 [error] [exception.CException] exception 'CException' with message 'Property "PaymentInterswitch.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('email')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('email')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(PaymentInterswitch), 'email')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(PaymentInterswitch), 'email', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(PaymentInterswitch), 'email', Array)
+#5 C:\wamp\www\inpayment\protected\views\payment\index.php(48): CActiveForm->textField(Object(PaymentInterswitch), 'email', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\inp...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\inp...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\inp...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('../payment/inde...', Array, true)
+#10 C:\wamp\www\inpayment\protected\controllers\InterswitchController.php(57): CController->render('../payment/inde...', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionOpen()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 08:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:41:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:41:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:49:30 [error] [exception.CException] exception 'CException' with message 'Property "PaymentInterswitch.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('email')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('email')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(PaymentInterswitch), 'email')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(PaymentInterswitch), 'email', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(PaymentInterswitch), 'email', Array)
+#5 C:\wamp\www\inpayment\protected\views\payment\index.php(48): CActiveForm->textField(Object(PaymentInterswitch), 'email', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\inp...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\inp...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\inp...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('../payment/inde...', Array, true)
+#10 C:\wamp\www\inpayment\protected\controllers\InterswitchController.php(57): CController->render('../payment/inde...', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionOpen()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 08:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 08:56:09 [error] [php] Undefined variable: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (25)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 09:02:20 [error] [php] Undefined index: interswitchP (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 09:03:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:03:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:04:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:05:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:06:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:06:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:06:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:06:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:15:23 [error] [php] Undefined index: interswitch (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 09:15:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 09:16:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:17:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:17:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "StartPay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('StartPay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('StartPay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/StartPay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/StartPay
+---
+2015/09/16 09:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:31:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:31:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:32:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:32:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:40:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "startpay".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('startpay')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('startpay')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/startpay')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/startpay
+---
+2015/09/16 09:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 09:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/site/startpay
+---
+2015/09/16 10:12:20 [error] [php] Undefined index: transaction_id (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:15:25 [error] [php] Undefined index: transaction_id (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:16:05 [error] [php] Undefined index: transaction_id (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (24)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:19:51 [error] [php] Trying to get property of non-object (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (26)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:23:31 [error] [php] Undefined variable: modelPay (C:\wamp\www\inpayment\protected\views\payment\index.php:48)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): InterswitchController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): InterswitchController->renderPartial()
+#2 C:\wamp\www\inpayment\protected\controllers\InterswitchController.php(66): InterswitchController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionOpen()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\views\payment\index.php (48)
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (66)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 10:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/open
+---
+2015/09/16 10:29:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'inpay-1442353248' for key 'unique_transaction_id'. The SQL statement executed was: INSERT INTO `ins_account_payment_interswitch` (`amount`, `transaction_id`, `cust_name`) VALUES (:yp0, :yp1, :yp2).
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (52)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:29:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'inpay-1442353248' for key 'unique_transaction_id'. The SQL statement executed was: INSERT INTO `ins_account_payment_interswitch` (`amount`, `transaction_id`, `cust_name`) VALUES (:yp0, :yp1, :yp2)' in C:\wamp\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\inpayment\protected\controllers\InterswitchController.php(52): CActiveRecord->save()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionOpen()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('open')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ope...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/open
+HTTP_REFERER=http://localhost/website/index.php/site/
+---
+2015/09/16 10:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:38:19 [error] [php] Undefined variable: amount (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:38)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (38)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 10:42:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 10:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:23:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bad Request 1' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:58
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionVerify()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('verify')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ver...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/verify
+HTTP_REFERER=http://localhost/website/index.php/site
+---
+2015/09/16 11:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:25:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bad Request 1' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:58
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionVerify()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('verify')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ver...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/verify
+HTTP_REFERER=http://localhost/website/index.php/site
+---
+2015/09/16 11:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:25:49 [error] [php] Undefined index: FormModel (C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): InterswitchController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): InterswitchController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): InterswitchController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\inpayment\index.php(13): CWebApplication->run()
+REQUEST_URI=/inpayment/index.php/interswitch/open
+in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php (25)
+in C:\wamp\www\inpayment\index.php (13)
+2015/09/16 11:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:26:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Bad Request 1' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:58
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionVerify()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('verify')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/ver...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/verify
+HTTP_REFERER=http://localhost/website/index.php/site/
+---
+2015/09/16 11:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 11:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 14:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 14:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/verify
+---
+2015/09/16 14:37:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Unknown SSL protocol error in connection to stageserv.interswitchng.com:443 ' in C:\wamp\www\inpayment\protected\controllers\InterswitchController.php:146
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): InterswitchController->actionResponse()
+#1 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('response')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/res...')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/response
+---
+2015/09/16 14:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/close.png
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/response
+---
+2015/09/16 14:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('interswitch/img...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\inpayment\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inpayment/index.php/interswitch/img/loading.gif
+HTTP_REFERER=http://localhost/inpayment/index.php/interswitch/response
+---
